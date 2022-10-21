@@ -1,0 +1,603 @@
+/* main */
+
+a,header a {
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: underline
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+li.aside-item, p, .pub-text {
+    font-size: 16px
+}
+
+img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic
+}
+
+body {
+    font-family: -apple-system,BlinkMacSystemFont,avenir next,avenir,segoe ui,helvetica neue,helvetica,Cantarell,Ubuntu,roboto,noto,arial,sans-serif;
+    line-height: 1.5;
+    min-width: 250px
+}
+
+.container {
+    padding-top: 40px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: 3%;
+    display: table;
+    overflow: hidden
+}
+
+.container-r {
+    padding-top: 40px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: 3%;
+    display: table;
+    overflow: hidden
+}
+
+header {
+    margin: auto;
+    height: 65px;
+    box-shadow: 0 4px 4px rgba(0,0,0,.25)
+}
+
+header a {
+    color: #000
+}
+
+a,header a:hover {
+    color: #c00404
+}
+
+body,header ul {
+    margin: 0;
+    padding: 0
+}
+
+header #logo {
+    padding-left: 20px;
+    padding-right: 30px;
+    border-radius: 0 30px 30px 0;
+    float: left;
+    background-color: #c00404
+}
+
+header #logo h1,header #logo-banner h1 {
+    color: #f5f5f5;
+    font-size: 40px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 800
+}
+
+header #logo,header #logo-banner {
+    padding-bottom: 5px
+}
+
+header #logo-banner h1 {
+    color: #c00404
+}
+
+header nav {
+    float: left;
+    padding-top: 16px;
+    padding-left: 35px
+}
+
+header nav a {
+    background-image: linear-gradient(rgba(184,157,157,.4)0 0);
+    background-position: 0 100%;
+    background-size: 0 2px;
+    background-repeat: no-repeat;
+    transition: background-size .2s, background-position 0s .2s
+}
+
+header nav a:hover {
+    text-decoration: none;
+    background-position: 100% 100%;
+    background-size: 100% 2px
+}
+
+header nav ul {
+    font-size: 19px
+}
+
+header nav li {
+    display: inline;
+    padding: 0 40px;
+    font-size: 1em;
+    font-weight: 650
+}
+
+header #menu-icon, header #search-bar, header #search-icon {
+    float: right;
+    padding-right: 20px;
+    padding-top: 20px
+}
+
+header #search-bar input {
+    margin-right: 20px;
+    margin-top: 2px;
+    padding: 0;
+    height: 18px;
+    width: 200px;
+    float: left;
+    font-size: 16px
+}
+
+main {
+    float: left;
+    margin-bottom: 30px;
+    max-width: 78%
+}
+
+#lab-intro-img-wide h1, #research-img-wide h1 {
+    position: absolute;
+    color: #fff;
+    margin: 0;
+    line-height: 100%;
+    left: 7%;
+    right: 7%;
+    bottom: 7%;
+}
+
+main #intro {
+    margin-top: 20px;
+    display: table
+}
+
+main #intro #lab-intro-img {
+    float: left;
+    min-height: 1px;
+    width: 30%;
+    border: 7px solid #f5f5f5;
+    border-radius: 4px
+}
+
+main #intro #lab-intro-text {
+    float: left;
+    min-height: 1px;
+    width: 520px;
+    margin-left: 60px
+}
+
+main #intro #lab-intro-text h1 {
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 24px;
+    letter-spacing: -0.4px;
+    line-height: 100%
+}
+
+main #intro #lab-intro-text p {
+    line-height: 140%;
+    margin-top: 8px;
+    margin-bottom: 0
+}
+
+#themes,aside,main #intro {
+    margin-bottom: 20px
+}
+
+#themes {
+    margin-top: 50px;
+    padding: 0
+}
+
+#themes ul, footer {
+    padding-bottom: 10px
+}
+
+#themes ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,180px);
+    grid-row-gap: 20px;
+    grid-column-gap: 35px;
+    justify-content: space-between;
+    align-content: flex-start;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 4px;
+    padding-right: 4px
+}
+
+#themes li {
+    width: 180px;
+    height: 110px;
+    border-radius: 4px;
+    background: rgba(250,250,250,.93);
+    box-shadow: 0 4px 5px rgba(0,0,0,.25);
+    color: #414141
+}
+
+#themes li h3 {
+    font-family: "Source Sans Pro",sans-serif;
+    text-align: right;
+    margin: 0 10px 0 45px;
+    padding-top: 12px;
+    padding-bottom: 22px;
+    line-height: 120%;
+    font-size: 17px;
+    font-weight: 500
+}
+
+#themes li:hover {
+    color: #f5f5f5;
+    background-color: #c00404;
+    box-shadow: 0 4px 4px rgba(150,5,5,.5)
+}
+
+#themes a:hover {
+    text-decoration-color: #deb4b4
+}
+
+aside {
+    margin-top: -40px;
+    margin-left: 50px;
+    float: right
+}
+
+ul#asides {
+    margin: 0;
+    padding: 0
+}
+
+li.aside-item h2 {
+    margin-top: 40px;
+}
+
+li.aside-item ul, ul#asides {
+    list-style-type: none
+}
+
+li.aside-item p, li.aside-item ul {
+    color: #414141;
+    margin: 0;
+    padding: 0
+}
+
+footer {
+    color: #a3a3a3;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+
+/* reserach */
+
+div#research-img-wide {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: -1
+}
+
+
+div#research-img-wide img {
+    width: 100%;
+}
+
+/* @media (min-width: 1224px) {
+    div#research-img-wide img {
+        width: 100%;
+    }    
+} */
+
+ul.sections {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: flex-start;
+    column-gap: 15px;
+    row-gap: 8px;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 0;
+    padding-right: 4px;
+    padding-bottom: 6px;
+    margin-top: 0;
+}
+
+
+ul.sections li:hover {
+    color: #f5f5f5;
+    background-color: #c00404;
+    box-shadow: 0 1px 1px rgba(150,5,5,.5);
+}
+
+ul.sections li {
+    /* width: 80px; */
+    /* height: 50px; */
+    font-family: "Source Sans Pro",sans-serif;
+    font-size: 16px;
+    border-radius: 20px;
+    background: rgba(250,250,250,.93);
+    box-shadow: 0 1px 1px rgba(0,0,0,.25);
+    color: #414141;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+}
+
+
+.pub-img-pair {
+    min-width: 52px;
+    max-width: 52px;
+    margin-top: 7px;
+    margin-bottom: auto;
+    margin-right: 14px;
+}
+
+.pub-img-pair img.pub-img:last-child {
+    display: none;
+}
+
+.pub-img-pair:hover img.pub-img:last-child{
+    display: block;
+}
+
+.pub-img-pair:hover img.pub-img:first-child{
+    display: none;
+}
+
+
+.pub-yearly {
+    margin-top: 30px;
+}
+
+.pub-yearly h2 {
+    margin: 0;
+}
+
+.pub-yearly ul {
+    padding-left: 0;
+}
+
+.pub-yearly li {
+    display: flex;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:1240px) and (min-width:1000px) {
+    main #intro #lab-intro-img {
+        width: 250px
+    }
+
+    main #intro #lab-intro-text {
+        width: auto;
+        height: auto;
+        max-width: 60%
+    }
+}
+
+@media (max-width:1240px) and (min-width:754px) {
+    ul#asides {
+        display: flex;
+        align-content: space-evenly;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        column-gap: 50px;
+        row-gap: 30px
+    }
+
+    li.aside-item {
+        width: 178px
+    }
+}
+
+@media (max-width:1000px) and (min-width:575px) {
+    #themes li {
+        display: table;
+        border-spacing: 16px 0;
+        width: 140px;
+        height: 140px
+    }
+
+    #themes li h3 {
+        padding: 0;
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle
+    }
+
+    #themes ul {
+        grid-template-columns: repeat(auto-fit,140px);
+        grid-row-gap: 20px;
+        grid-column-gap: 25px
+    }
+}
+
+@media (max-width:575px) {
+    #themes li {
+        display: table;
+        border-spacing: 16px 0;
+        width: 100%;
+        height: 65px
+    }
+
+    #themes li h3 {
+        padding: 0;
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 16px
+    }
+
+    #themes ul {
+        grid-template-columns: 100%;
+        grid-row-gap: 15px
+    }
+}
+
+@media (min-width:754px) {
+    header #logo-banner {
+        display: none
+    }
+}
+
+@media (max-width:754px) {
+    header #logo,header nav {
+        display: none
+    }
+
+    header #menu-icon {
+        display: inline-block;
+        float: left;
+        padding-left: 20px;
+        padding-right: 0
+    }
+
+    header #logo-banner {
+        float: none;
+        width: 100%
+    }
+
+    header #logo-banner h1 {
+        text-align: center
+    }
+
+    header #logo-banner a {
+        background-image: linear-gradient(rgba(184,157,157,.4)0 0);
+        background-position: 0 100%;
+        background-size: 0 2px;
+        background-repeat: no-repeat;
+        transition: background-size .2s,background-position 0s .2s
+    }
+
+    header #logo-banner h1 a:hover {
+        text-decoration: none;
+        background-position: 100% 100%;
+        background-size: 100% 2px
+    }
+
+    li.aside-item h2 {
+        font-size: 16px
+    }
+
+    li.aside-item,li.aside-item p {
+        font-size: 13px
+    }
+
+    li.aside-item {
+        width: 150px
+    }
+
+    ul#asides {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        column-gap: 10px;
+        row-gap: 20px
+    }
+}
+
+@media (min-width:960px) {
+    header #search-icon {
+        display: none
+    }
+}
+
+@media (max-width:960px) {
+    header #search-bar {
+        display: none
+    }
+
+    header #search-icon {
+        display: inline-block
+    }
+}
+
+@media (min-width:1000px) {
+    div#lab-intro-img-wide {
+        display: none
+    }
+}
+
+@media (max-width:1000px) {
+    main #intro #lab-intro-img,main #intro #lab-intro-text h1 {
+        display: none
+    }
+
+    div#lab-intro-img-wide {
+        display: block;
+        position: relative;
+        z-index: -1
+    }
+
+    main #intro #lab-intro-text {
+        width: auto;
+        height: auto;
+        margin-left: 0;
+        max-width: none
+    }
+
+    .container {
+        padding-top: 0
+    }
+}
+
+@media (min-width:1240px) {
+    hr#main-aside {
+        display: none
+    }
+}
+
+@media (max-width:1240px) {
+    .container {
+        width: 86%;
+        margin-right: auto
+    }
+
+    main {
+        max-width: none
+    }
+
+    hr#main-aside {
+        display: block
+    }
+
+    aside {
+        margin-top: 20px;
+        margin-left: 0;
+        float: left;
+        width: auto
+    }
+
+    li.aside-item h2 {
+        margin-top: 0
+    }
+}
